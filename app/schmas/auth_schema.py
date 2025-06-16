@@ -36,3 +36,8 @@ class UserSignupModel(BaseUserModel):
                 "is_active": True
             }]
         }
+
+
+class LoginModel(BaseModel):
+    username: str
+    password: str
