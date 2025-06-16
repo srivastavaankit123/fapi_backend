@@ -1,1 +1,1 @@
-from .auth_schema import UserSignupModel, BaseUserModel  # noqa
+from .auth_schema import UserSignupModel, BaseUserModel, LoginModel  # noqa
